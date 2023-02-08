@@ -174,6 +174,18 @@ h2, p{
  .form h2{
     text-align: center;
  }
+ .form div{
+    position: relative;
+    width: 70%;
+    align-items: center;
+    margin-top: 15px;
+    left: 20%;
+ }
+ .form article{
+    position: relative;
+    width: 75%;
+    left: 20%;
+ }
  .submit{
     position: relative;
     padding: 15px;
