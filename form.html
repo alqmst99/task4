@@ -4,63 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
     <title>Document</title>
 </head>
 <body>
     <main>
         <section>
+            <div class="tit">
+                <h1>Registration Form</h1>
+            </div>
+            
             <div class="form">
                 <form  action="/data/show_data.html" method="get">
-                    <label for="">
-                        <p>name</p>
-                        <input type="text">
-                    </label>
-                <label for="">
-                    <p>last name</p>
-                    <input type="text">
-                </label>
-                <label for="">
-                    <p>adress</p>
-                    <input type="text">
-                </label>
-                <label for="">
-                    <p>date birt</p>
-                    <input type="text">
-                </label>
-                <label for="">
-                    <p>Document</p>
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="checkbox">
-                </label>
-                <label for="">
-                    <input type="checkbox">
-                </label>
-                <label for="">
-                    <input type="checkbox">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
-                <label for="">
-                    <input type="text">
-                </label>
+                    <div class="named">
+
+                        <label for="name">Playar's First Name</label>
+                            <input type="text" name="name">
+                        <label for="last">Last Name:</label>
+                            <input type="text" name="last">
+                            <br>
+                        <label for="address">Street Address:</label>
+                        <input type="text" name="address" >
+                    </div>
+                <div class="loc">
+                    <label for="city">City</label>
+                        <input type="text" name="city">
+                    <label for="zip">Zip Code:</label>
+                        <input type="text" name="zip">
+                </div>
+                <div class="sex">
+                   <label for="date">Birth Date(mm/dd/yyyy)</label>
+                        <input type="date" name="date">
+                        <label for="Gender">Gender:</label>
+                        Female
+                        <input type="checkbox" name="Gender" value="female">
+                         Male
+                        <input type="checkbox" name="Gender" value="male">
+                    </div>
+                <div class="std">
+                    
+                    <label for="Pre-School">Grade: </label>
+                    Pre-School
+                    <input type="checkbox" name="Pre-School">
+                        <sup>1ts</sup>
+                        <input type="checkbox"name="Grade" value="1">
+                        <sup>2nd</sup>
+                        <input type="checkbox" name="Grade"value="2">
+                        <sup>3rd</sup>
+                        <input type="checkbox"name="Grade"value="3">
+                        <sup>4th</sup>
+                        <input type="checkbox"name="Grade"value="4">
+                        <sup>5th</sup> 
+                        <input type="checkbox"name="Grade"value="5">
+                        
+                </div>
+                <div class="sch">
+                    <h2>Which elementary school do you live near?</h2>
+                    <label for="school">Closest School:</label>
+                    <input type="radio" name="school" value="AJ-Katzenmaier">
+                    AJ Katzenmaier
+                    <input type="radio" name="school" value="Greenbay">
+                    Greenbay
+                    <input type="radio" name="school" value="Howard-A-Yeager">
+                    Howard A Yeager
+                    
+                    <input type="radio" name="school" value="Marjorie-P-Hart">
+                    Marjorie P Hart
+                    
+                    <input type="radio" name="school" value="North-Elementary">
+                    North Elementary
+                   
+                    <input type="radio" name="school" value="South-Elementary">
+                    South Elementary
+                      
+                </div>
+                <div class="pos">
+                    
+                    <label for="position"><h2>What position(s) do you normally play? (check all that apply)</h2></label>
+                    <input type="checkbox"  name="position" value="Forward">
+                        Forward 
+                     <input type="checkbox" name="position" value="Defense">
+                        Defense
+                    
+                    <input type="checkbox" name="position" value="Midfield">
+                        Midfield
+                    
+                    <input type="checkbox" name="position" value="Goalkeeper">
+                        Goalkeeper
+                    
+                </div>
+                <div class="talla">
+                    
+                    <label for="size"><h2>Uniform Size:</h2></label>
+                    <input type="checkbox" name="size" value="Youth-small">
+                        Youth Small
+                    
+                    <input type="checkbox" name="size" value="Youth-medium">
+                        Youth Medium 
+                   
+                    <input type="checkbox" name="size" value="Youth-large">
+                        Youth Large 
+                   
+                    <input type="checkbox" name="size" value="Small">
+                        Small
+                    
+                    <input type="checkbox" name="size" value="Medium">
+                        Medium 
+                    
+                    <input type="checkbox" name="size" value="Large">
+                        Large
+                   
+                    <input type="checkbox" name="size" value="Extra-Large">
+                        Extra-Large
+                </div>
                 
+            </section>
+            <section>
+                <article>
+                    <h2>Permission to Play</h2>
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and voIunteers,incIuding the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
+                        By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso
+                        acknowledge that I have read the cancellation policy and agree to its terms. </p>
+                </article>
+                <div>    
+                    <label for="parent">
+                        <p>Parent/GuardianSignature:</p>
+                    </label>
+                    <input type="text" name="parent">
+                    <label for="firmd">Date:</label>
+                    <input type="text" name="firmd">
+                </div>
+                <input type="submit" value="summit" class="submit">
             </form>
         </div>
-        </section>
-        <section>
-            
         </section>
     </main>
 </body>

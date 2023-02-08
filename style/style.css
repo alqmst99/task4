@@ -160,10 +160,26 @@ h2, p{
     animation-duration: 3s;
     animation-name: slidein;
 }
+.tit{
+    text-align: center;
+}
 .form{
     display: flex;
-    flex-direction: column;
-}
+    justify-content: center;
+    margin: 15px;
+    margin-top: 10px;
+   }
+ .form h2{
+    text-align: center;
+ }
+ .submit{
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    background: transparent;
+    left: 50%;
+ }
+
 
 @keyframes slidein {
     from {
