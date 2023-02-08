@@ -165,9 +165,11 @@ h2, p{
 }
 .form{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 15px;
     margin-top: 10px;
+    align-content: space-around;
    }
  .form h2{
     text-align: center;
@@ -177,7 +179,7 @@ h2, p{
     padding: 15px;
     border-radius: 10px;
     background: transparent;
-    left: 50%;
+   
  }
 
 

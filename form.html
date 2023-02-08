@@ -14,12 +14,12 @@
                 <h1>Registration Form</h1>
             </div>
             
-            <div class="form">
-                <form  action="/data/show_data.html" method="get">
+            <form  action="/data/show_data.html" method="get">
+                    <div class="form">
                     <div class="named">
 
-                        <label for="name">Playar's First Name</label>
-                            <input type="text" name="name">
+                        <label for="namef">Playar's First Name</label>
+                            <input type="text" name="namef">
                         <label for="last">Last Name:</label>
                             <input type="text" name="last">
                             <br>
@@ -47,15 +47,15 @@
                     Pre-School
                     <input type="checkbox" name="Pre-School">
                         <sup>1ts</sup>
-                        <input type="checkbox"name="Grade" value="1">
+                        <input type="checkbox" name="Grade" value="1">
                         <sup>2nd</sup>
-                        <input type="checkbox" name="Grade"value="2">
+                        <input type="checkbox" name="Grade" value="2">
                         <sup>3rd</sup>
-                        <input type="checkbox"name="Grade"value="3">
+                        <input type="checkbox" name="Grade" value="3">
                         <sup>4th</sup>
-                        <input type="checkbox"name="Grade"value="4">
+                        <input type="checkbox" name="Grade" value="4">
                         <sup>5th</sup> 
-                        <input type="checkbox"name="Grade"value="5">
+                        <input type="checkbox" name="Grade" value="5">
                         
                 </div>
                 <div class="sch">
@@ -79,8 +79,8 @@
                       
                 </div>
                 <div class="pos">
-                    
-                    <label for="position"><h2>What position(s) do you normally play? (check all that apply)</h2></label>
+                    <h2>What position(s) do you normally play? (check all that apply)</h2>
+                    <label for="position"></label>
                     <input type="checkbox"  name="position" value="Forward">
                         Forward 
                      <input type="checkbox" name="position" value="Defense">
@@ -94,8 +94,8 @@
                     
                 </div>
                 <div class="talla">
-                    
-                    <label for="size"><h2>Uniform Size:</h2></label>
+                    <h2>Uniform Size:</h2>
+                    <label for="size"></label>
                     <input type="checkbox" name="size" value="Youth-small">
                         Youth Small
                     
@@ -118,8 +118,6 @@
                         Extra-Large
                 </div>
                 
-            </section>
-            <section>
                 <article>
                     <h2>Permission to Play</h2>
                     <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and voIunteers,incIuding the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
@@ -127,16 +125,14 @@
                         acknowledge that I have read the cancellation policy and agree to its terms. </p>
                 </article>
                 <div>    
-                    <label for="parent">
-                        <p>Parent/GuardianSignature:</p>
-                    </label>
-                    <input type="text" name="parent">
+                    <label for="parent">Parent/GuardianSignature:</label>
+                    <input type="text" id="parent" name="parent">
                     <label for="firmd">Date:</label>
-                    <input type="text" name="firmd">
+                    <input type="text" id="firmd" name="firmd">
                 </div>
                 <input type="submit" value="summit" class="submit">
+            </div>
             </form>
-        </div>
         </section>
     </main>
 </body>
